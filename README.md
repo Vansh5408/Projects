@@ -1,3 +1,3 @@
-# java-script
+# projects
 a code repo for projects
 
