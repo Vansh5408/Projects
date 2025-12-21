@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            background-color: rgb(112, 193, 225);
+            border: 3px solid black ;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            justify-items: center;
+            align-items: center;
+        }
+        .box{
+            background-color:antiquewhite;
+            height: 75%;
+            width: 25%;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            box-shadow: 5px 5px 40px blue;
+            
+        }
+        .box p{
+            padding-left: 50px;
+            padding-right: 50px;
+            text-align: center;
+        }
+        .image{
+            border-top-left-radius: 20px;
+            border-top-right-radius:20px ;
+            height: 150px;
+            width: 100%;
+             box-shadow: 5px 5px 40px black;
+
+        }
+        #amountbox{
+            height: 10%;
+            width: 80%;
+            background-color: rgb(148, 114, 180);
+            border-radius: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: 10px;
+
+        }
+        #pay{
+            height: 10%;
+            width: 80%;
+            background-color:rgb(8, 8, 129);
+            border-radius: 20px;
+            color: white;
+            box-shadow: 5px 5px 40px rgb(170, 249, 249);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="technology.jpg" class="image">
+            <h2>Order Summary</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+                 animi?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, impedit!</p>
+            <div id="amountbox">
+                <p>annual plan
+                    $99.9/year
+                </p>
+                <a href="#">Change</a>
+            </div>
+            <button id="pay">
+                proceed to payment
+            </button>
+            <a href="#">cancel order</a>
+        </div>
+    </div>
+</body>
+</html>
